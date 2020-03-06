@@ -119,7 +119,7 @@ exports.WorkoutHistory = mobx_react_lite_1.observer(function (_a) {
                     }
                     /* If A then set to B otherwise set to A */
                     rootStore.workoutStore.lastWorkoutType =
-                        rootStore.workoutStore.lastWorkoutType === "a" ? "a" : "b";
+                        rootStore.workoutStore.lastWorkoutType === "a" ? "b" : "a";
                 }
                 history.push("/current-workout");
             } })));
