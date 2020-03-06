@@ -1,0 +1,3 @@
+[submodule "/packages/web"]
+  path = /packages/web
+  url = git://https://github.com/jgoldson/workoutApp.git
